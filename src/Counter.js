@@ -10,7 +10,6 @@ function Counter() {
 
   const subtract = () => {
     setIsBefore(true);
-    console.log(isBefore);
     setTimeout(() => {
       setCount(count - 1);
       setCountBefore(countBefore - 1);
